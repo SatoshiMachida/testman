@@ -11,10 +11,10 @@
         <p>赤:{{ counter[0] }}, 緑:{{ counter[1] }},白:{{ counter[2] }}</p>
         <p>{{ ["赤の選択中", "緑の選択中", "白の選択中", "青の選択中", "ゲーム進行中", "アタックチャンス"][wb] }}</p>
         <div class="member">
-            <button class="button_red" @click="ans_red"><img src="../images/date.jpg" height="100" width="120"><br>赤</button>
-            <button class="button_green" @click="ans_green"><img src="../images/kuwabara.jpg" height="100" width="120"><br>緑</button>
-            <button class="button_white" @click="ans_white"><img src="../images/shimazu.jpg" height="100" width="120"><br>白</button>
-            <button class="button_blue" @click="ans_blue"><img src="../images/wotsushi.jpg" height="100" width="120"><br>青</button>
+            <button class="button_red" @click="ans_red"><img src="../assets/images/red_user.jpg" height="100" width="120"><br>赤</button>
+            <button class="button_green" @click="ans_green"><img src="../assets/images/green_user.jpg" height="100" width="120"><br>緑</button>
+            <button class="button_white" @click="ans_white"><img src="../assets/images/white_user.jpg" height="100" width="120"><br>白</button>
+            <button class="button_blue" @click="ans_blue"><img src="../assets/images/blue_user.jpg" height="100" width="120"><br>青</button>
         </div>
         <p>
             <button @click="next">次の問題</button>

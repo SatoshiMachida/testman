@@ -1,25 +1,11 @@
-<<<<<<< HEAD
 # testman
 
-> A Vue.js project
+参加者4人で司会者が出すクイズを早もの勝ちで答えるゲーム。
 
-## Build Setup
+正解者は5*5のパネルの中で、[ルール](https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%8D%E3%83%AB%E3%82%AF%E3%82%A4%E3%82%BA_%E3%82%A2%E3%82%BF%E3%83%83%E3%82%AF25#%E3%83%AB%E3%83%BC%E3%83%AB)に従った場所に自分の色のパネルを設置できる。
 
-``` bash
-# install dependencies
-npm install
+自分の色のパネルを設置する際、すでに自分の色のパネルがあり、そのパネル間に他の参加者の色のパネルが1つ以上連続して存在すれば、オセロ式に自分の色のパネルに変化できる。
 
-# serve with hot reload at localhost:8080
-npm run dev
+全てのパネルが参加者の色のパネルで設置された場合、最も多い色のパネルの参加者が勝者となる。なお、終了後、勝者は自分の色のパネルが設置された箇所のみ表示される映像を視聴し、その映像が何を示すかという問題に正解することで海外旅行券を手に入れることができる。
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
-# testman
->>>>>>> origin/master
+このゲームはフィクションです。実在の人物や団体などとは関係ありません。
